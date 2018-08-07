@@ -8,7 +8,7 @@
 } */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     -moz-user-select: none;
     -webkit-user-select: none;
@@ -103,7 +103,7 @@ body {
 }
 
 .timeline-image {
-    padding-bottom: 2.5%;
+    
     position: relative;
     z-index: 100;
 }
@@ -124,6 +124,9 @@ body {
 }
 
 .timeline-image img {
+    /* padding-top:50%; */
+    width: 30px;
+    height: 30px;
     position: relative;
     z-index: 100;
 }
