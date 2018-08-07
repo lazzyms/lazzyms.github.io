@@ -15,6 +15,15 @@ body {
     user-select: none;
 }
 
+.text-warning {
+    color: orange !important;
+}
+
+.social-brands{
+    text-align: justify;
+    align-content: center;
+}
+
 :focus {
     outline: 0px solid transparent !important;
 }
@@ -103,7 +112,6 @@ body {
 }
 
 .timeline-image {
-    
     position: relative;
     z-index: 100;
 }
