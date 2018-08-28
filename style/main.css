@@ -8,18 +8,29 @@
 } */
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
 }
 
-.text-warning {
+.thanks {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+.name {
+    font-weight: bolder;
+    font-family: 'Lora', serif;
+}
+
+.text-warning,
+.bg-warning {
     color: orange !important;
 }
 
-.social-brands{
+.social-brands {
     text-align: justify;
     align-content: center;
 }
