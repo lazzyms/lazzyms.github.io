@@ -25,6 +25,15 @@ body {
     font-family: 'Lora', serif;
 }
 
+.project-title {
+    font-weight: bold;
+}
+
+.projecr-card {
+    margin: 10px;
+    box-shadow: 0 5px 5px 0 #343a40;
+}
+
 .text-warning,
 .bg-warning {
     color: orange !important;
