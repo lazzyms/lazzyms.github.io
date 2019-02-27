@@ -5,7 +5,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123790467-1"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Portfolio or Resume for Maulik Sompura, Web Developer."/>
+    <meta name="description" content="Portfolio or Resume for Maulik Sompura, Web Developer." />
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -16,14 +16,14 @@
 
         gtag('config', 'UA-123790467-1');
     </script>
-    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Ubuntu|Lora:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto|Cedarville+Cursive" rel="stylesheet">
     <link rel="apple-touch-icon" sizes="180x180" href="./asset/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="./asset/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#2d89ef"/>
-    <meta name="theme-color" content="#ffffff"/>
+    <meta name="msapplication-TileColor" content="#2d89ef" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Portfolio - Maulik Sompura</title>
     <link href="./style/bootstrap.min.css" rel="stylesheet" />
     <link href="./style/main.css" rel="stylesheet" />
@@ -34,447 +34,99 @@
 </head>
 
 <body>
+    <div class="mainscreen">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg sticky-top">
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <p class="nav-link" id="keyskills">Key Skills </p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#addknowledge">Additional Knowledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#timeline">Timeline</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#langint">Language & Interests</a>
+                        </li>
+                    </ul>
+                </div>
+                <label class="text-light">
+                    Download :
+                    <a role="button" download="maulik-resume" href="./asset/generic.pdf">Generic</a> /
+                    <a role="button" download="maulik-resume" href="./asset/resume.pdf">Fancy(this)</a>
+                </label>
+            </nav>
+            <div class="card content" id="home">
+                <div class="card-body row">
+                    <!-- <div class=""></div> -->
+                    <div class="col-md-6 left-content">
+                        <div class="profile-img">
+                            <img src="asset/me.jpeg" class="rounded-circle" />
+                        </div>
+                        <h1>
+                            Maulik Sompura
+                        </h1>
+                        <h3>
+                            Web Developer
+                        </h3>
+                    </div>
+                    <div class="col-md-6 right-content">
+                        <h1 class="quote">"</h1>
+                        <p>
+                            Hello. I am Bachelor of Computer Engineering and Currently Working
+                            as Software Developer. Loves to code. I enjoy being challenged and engaging with projects
+                            that require me to work outside my comfort and knowledge set, as continuing to learn new
+                            languages and development techniques are important to me.
+                        </p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="card content" id="skills">
+                <div class="card-body row">
+                    <!-- <div class=""></div> -->
+                    <div class="col-md-6 left-content">
+                        <div class="profile-img">
+                            <img src="asset/me.jpeg" class="rounded-circle" />
+                        </div>
+                    </div>
+                    <div class="col-md-6 right-content">
+                        <h1>
+                            Maulik Sompura
+                        </h1>
+                        <h3>
+                            Web Developer
+                        </h3>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse " id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#keyskills">Key Skills </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#addknowledge">Additional Knowledge</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#timeline">Timeline</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#langint">Language & Interests</a>
-                </li>
-            </ul>
-        </div>
-        <label class="text-light">
-            Download :
-            <a role="button" download="maulik-resume" href="./asset/generic.pdf">Generic</a> /
-            <a role="button" download="maulik-resume" href="./asset/resume.pdf">Fancy(this)</a>
-        </label>
-    </nav>
 
-    <!-- Header content -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-8 col-sm-12">
-                <div class="align-items-center">
-                    <h1 class="text-right name">Maulik Sompura</h1>
-                    <a href="https://go.oclasrv.com/afu.php?zoneid=2043085" target="_blank">
-                        <h4 class="text-right text-warning">Computer Engineer</h4>
-                    </a>
-                </div>
-                <p class="text-justify">
-
-                    Hello, welcome to my profile. I am Bachelor of Computer Engineering and Currently Working as
-                    Software Developer. Loves to
-                    code. I enjoy being challenged and engaging with projects that require me to work outside my
-                    comfort
-                    and knowledge set, as continuing to learn new languages and development techniques are
-                    important to
-                    me.
-                    Do check other details below.
-                </p>
-            </div>
-            <div class="col-md-4 col-sm-12 align-self-end">
-                <div style="padding-left: 100px;">
-                    <img src="https://i.imgur.com/hiahSNR.jpg" class="img-thumbnail border-warning rounded-circle"
-                        height="150" width="150" />
-                </div>
-            </div>
-            <div class="container-fluid">
-                <br>
-                <div class="row">
-                    <div class="col text-warning">
-                        <i class="fas fa-globe"></i>
-                        <a href="https://www.mauliksompura.in">
-                            mauliksompura.in</a>
-                    </div>
-                    <div class="col text-warning">
-                        <i class="fas fa-phone"></i>
-                        <a href="skype:+91 89057 78997">
-                            +91 89057 78997</a>
-                    </div>
-                    <div class="col text-warning">
-                        <i class="fas fa-at"></i>
-                        <a href="mailto:maulik.sompura06@gmail.com">
-                            maulik.sompura06@gmail.com</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br />
-        <br />
-        <hr>
-        <br />
-        <br />
-        <!-- Key Skills -->
-        <div id="keyskills">
-            <div>
-                <h3 class="text-center">Key Skills</h3>
-            </div>
-            <br />
-            <div class="row">
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/bV9IcUY.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">PHP</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/0IkPkzB.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">MySQL</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/u3KJN9j.jpg" class="rounded-cirlce" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Javascript</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/xfXs9PK.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Phalcon</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/OJS9Jz2.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">C#</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br />
-        <br />
-        <hr>
-        <br />
-        <br />
-        <!-- Additional Skill -->
-        <div id="addknowledge">
-            <div>
-                <h3 class="text-center">Additional Knowledge</h3>
-            </div>
-            <br />
-            <div class="row">
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/0NKnBqw.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Photoshop</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/sk1DNJH.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">jQuery</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/2TwYVi5.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Electron</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/n86Gzd1.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Elastic Search</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/NbwtAmd.jpg" class="rounded-circle" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Basic Networking</label>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="border text-center">
-                        <img src="https://i.imgur.com/FCENEPZ.jpg" class="" height="100" width="100" />
-                        <div>
-                            <label class="text-muted">Node.JS</label>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br />
-        <br />
-        <hr>
-        <br />
-        <br />
-        <!-- Timeline -->
-        <div id="timeline" class="container">
-            <div>
-                <h3 class="text-center">Timeline</h3>
-            </div>
-            <br />
-            <div class="timeline">
-                <div class="row no-gutters justify-content-end justify-content-md-around align-items-start timeline-nodes">
-                    <div class="col-10 col-md-5 col-sm-5 order-3 order-md-1 order-sm-1 timeline-content">
-                        <div class="heading bg-dark">
-                            <div class="title">
-                                <h4 class="text-warning">Helimp Softomation LLP, Vadodara</h4>
-                            </div>
-                            <div class="subtitle text-light">
-                                <h6 class="">Software Developer</h6>
-                            </div>
-                        </div>
-                        <p class="text-justify">
-                            Worked primarily with Phalcon PHP, MySQL and AngularJS. And Secondarily with Elastic
-                            Search, Angular 5 and built cross-platform
-                            apps with Electron and NodeJS. Also worked with C# for some little projects.
-                        </p>
-                    </div>
-                    <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                        <img class="timeline-image" src="asset/work.svg">
-                    </div>
-                    <div class="col-10 col-md-5 col-sm-5 order-1 order-md-3 order-sm-3 py-3 timeline-date">
-                        <time>July, 2017 - October, 2018</time>
-                    </div>
-                </div>
-                <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                    <div class="col-10 col-md-5 col-sm-5 order-3 order-md-1 order-sm-1 timeline-content">
-                        <div class="heading bg-dark">
-                            <div class="title">
-                                <h4 class="text-warning">GEC, Bhavnagar (G.T.U.)</h4>
-                            </div>
-                            <div class="subtitle text-light">
-                                <h6 class="">Computer Engineering (B.E.)</h6>
-                            </div>
-                        </div>
-                        <p>
-                            CPI : 7.50 (70%)
-                            <br> SPI : 7.83 (73.7%)
-                        </p>
-                    </div>
-                    <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                        <img class="timeline-image" src="asset/edu.svg">
-                    </div>
-                    <div class="col-10 col-md-5 col-sm-5 order-1 order-md-3 order-sm-3 py-3 timeline-date">
-                        <time>2013-2017</time>
-                    </div>
-                </div>
-                <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                    <div class="col-10 col-md-5 col-sm-5 order-3 order-md-1 order-sm-1 timeline-content">
-                        <div class="heading bg-dark">
-                            <div class="title">
-                                <h4 class="text-warning">Gyanmanajari Vidyapith, Bhavnagar</h4>
-                            </div>
-                            <div class="subtitle text-light">
-                                <h6 class="">H.S.C. (Science)</h6>
-                            </div>
-                        </div>
-                        <p>
-                            Percentage : 74.6%
-                        </p>
-                    </div>
-                    <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                        <img class="timeline-image" src="asset/school.svg">
-                    </div>
-                    <div class="col-10 col-md-5 col-sm-5 order-1 order-md-3 order-sm-3 py-3 timeline-date">
-                        <time>2011-2013</time>
-                    </div>
-                </div>
-                <div class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
-                    <div class="col-10 col-md-5 col-sm-5 order-3 order-md-1 order-sm-1 timeline-content">
-                        <div class="heading bg-dark">
-                            <div class="title">
-                                <h4 class="text-warning">Gyanmanajari Vidyapith, Bhavnagar</h4>
-                            </div>
-                            <div class="subtitle text-light">
-                                <h6 class="">S.S.C.</h6>
-                            </div>
-                        </div>
-                        <p>
-                            Percentage : 79.2%
-                        </p>
-                    </div>
-                    <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
-                        <img class="timeline-image" src="asset/school.svg">
-                    </div>
-                    <div class="col-10 col-md-5 col-sm-5 order-1 order-md-3 order-sm-3 py-3 timeline-date">
-                        <time>2010-2011</time>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br />
-        <br />
-        <hr>
-        <br />
-        <br />
-        <!-- Projects -->
-        <div id="projects">
-            <div>
-                <h3 class="text-center">Projects</h3>
-            </div>
-            <br />
-            <div class="row">
-                <div class="projecr-card col">
-                    <div class="card-body">
-                        <h5 class="project-title">ERP System for PCB Manufacturer</h5>
-                        <p class="card-text">Built a ERP system with Phalcon PHP & AngularJS and database on MySQL at
-                            Helimp Softomation.</p>
-                    </div>
-                </div>
-                <div class="projecr-card col">
-                    <div class="card-body">
-                        <h5 class="project-title">toPDF</h5>
-                        <p class="card-text">Simple HTML to PDF converter with given link or HTML string build in
-                            Phalcon with use of wkhtmltopdf
-                            library.
-                        </p>
-                    </div>
-                </div>
-                <div class="projecr-card col">
-                    <div class="card-body">
-                        <h5 class="project-title">mCare</h5>
-                        <p class="card-text">A demo app to get existing data from MySQL database to display in the
-                            Electron CrossPlatform app.
-                            Designed with Angular 5 and data connection with NodeJS.
-                        </p>
-                    </div>
-                </div>
-                <div class="projecr-card col">
-                    <div class="card-body">
-                        <h5 class="project-title">Avasar</h5>
-                        <p class="card-text">Avasar is an Online Event Management Web System. It was my college project
-                            made in ASP.Net and C#
-                            with database in MSSQL Server. This project was temporarily hosted on AWS cloud.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <br />
-        <br />
-        <hr>
-        <br />
-        <br />
-        <!-- Language and Interest -->
-        <div id="langint" class="row">
-            <div class="col" id="languages">
-                <div id="timeline">
-                    <h3 class="text-center">Languages Known</h3>
-                </div>
-                <br />
-                <p class="text-center">Gujarati | English | Hindi </p>
-            </div>
-            <div class="col" id="interest">
-                <div id="timeline">
-                    <h3 class="text-center">Interests</h3>
-                </div>
-                <br />
-                <div class="text-center">
-                    <span data-toggle="tooltip" title="Photography">
-                        <i class="fa fa-2x fa-camera"></i>
-                    </span>
-                    <span data-toggle="tooltip" title="Movies">
-                        <i class="fa fa-2x fa-film"></i>
-                    </span>
-                    <span data-toggle="tooltip" title="Reading">
-                        <i class="fa fa-2x fa-book-open"></i>
-                    </span>
-                    <span data-toggle="tooltip" title="Travell">
-                        <i class="fa fa-2x fa-bus"></i>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <br />
-    </div>
-    <div class="bg-warning thanks text-center" id="thanks">
-        <br />
-        <br />
-        <h1 class="text-dark">Thank You</h1>
-        <br />
-        <br />
-    </div>
-    <footer>
-        <div class="bg-dark">
-            <div>
-                <h6 class="text-light text-center">Catch more about me on</h6>
-            </div>
-            <div class="col">
-                <div class="row">
-                    <br>
-                    <div class="col-4 col-sm-2"></div>
-                    <a class="col" href="https://www.linkedin.com/in/mauliksompura/">
-                        <i class="fab fa-lg fa-linkedin text-warning"></i>
-                    </a>
-                    <a class="col" href="https://stackoverflow.com/users/8602940/lazzy-ms">
-                        <i class="fab fa-lg fa-stack-overflow text-warning"></i>
-                    </a>
-                    <a class="col" href="https://github.com/lazzyms">
-                        <i class="fab fa-lg fa-github text-warning"></i>
-                    </a>
-                    <a class="col" href="http://facebook.com/lazzy.ms">
-                        <i class="fab fa-lg fa-facebook-square text-warning"></i>
-                    </a>
-                    <a class="col" href="http://instagram.com/lazzy_ms">
-                        <i class="fab fa-lg fa-instagram text-warning"></i>
-                    </a>
-                    <a class="col" href="https://twitter.com/@lazzy_ms">
-                        <i class="fab fa-lg fa-twitter text-warning"></i>
-                    </a>
-                    <a class="col" href="https://plus.google.com/u/0/+MaulikSompuraLazzy">
-                        <i class="fab fa-lg fa-google-plus text-warning"></i>
-                    </a>
-                    <a class="col" href="https://www.reddit.com/user/lazzy_ms">
-                        <i class="fab fa-lg fa-reddit text-warning"></i>
-                    </a>
-                    <div class="col-4 col-sm-2"></div>
-                </div>
-            </div>
-            <div>
-                <h6 class="text-center text-light">
-                    <!-- <a role="button" href="./asset/Portfolio_2018_New_Final.pdf">DDD</a> -->
-                    All Rights Reserved. &copy;Maulik Sompura
-                </h6>
-            </div>
-        </div>
-    </footer>
 </body>
 <script src="./script/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script>
+
+$('#keyskills').click(function(e){
+    alert('dd');
+    $('#home').css('display','none');
+    $('#skills').css('display','block');
+})
 
 </script>
 

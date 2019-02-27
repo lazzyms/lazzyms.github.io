@@ -1,21 +1,73 @@
-/* 
-:root {
-	--white: #ffffff;
-	--black: #000000;
-	--blue:#ffc107;
-	--gray:#ebebeb;
-	--box-shadow1:0px 0px 18px 2px rgba(10, 55, 90, 0.15);
-} */
 body {
+    font-family: 'Roboto', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgb(5, 170, 170), rgb(90, 170, 190), #fff);
+    background-repeat: no-repeat;
+    background-size: 100% 60%;
+    background-attachment: fixed;
+    border-bottom: 5px;
+}
+
+.content {
+    margin-top: 10%;
+    margin-bottom: 20px;
+    box-shadow: 10px 15px 30px 0px rgb(117, 115, 115);
+    border-radius: 1px;
+}
+
+.left-content {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Pacifico';
+    border-right: 1px solid rgba(90, 170, 186, 0.726);
+}
+
+.profile-img img {
+    margin-left: 150px;
+    box-shadow: 5px 10px 15px 5px rgba(117, 115, 115, 0.651);
+}
+
+.right-content {
+    padding-top:100px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    border-left: 1px solid rgba(90, 170, 186, 0.726);
+}
+
+.right-content p{
+    padding-left: 25px;
+    padding-right: 100px;
+    text-align: justify;
+}
+
+.left-content h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.quote {
+    font-family: 'Cedarville Cursive', cursive;
+}
+
+.left-content h3 {
+    text-align: center;
+}
+
+#skills{
+    display: none;
+}
+
+
+
+
+
+/* body {
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
     -moz-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-	top:0;
-	botton:0;
-	left:0;
-	right:0;
 }
 
 .thanks {
@@ -76,7 +128,6 @@ body {
 
 .heading {
     font-weight: lighter;
-    /* color: #ffc107; */
 }
 
 .timeline p,
@@ -159,17 +210,16 @@ body {
 }
 
 .timeline-image img {
-    /* padding-top:50%; */
     width: 30px;
     height: 30px;
     position: relative;
     z-index: 100;
-}
+} */
 
 /*small device style*/
 @media (max-width: 767px) {
 
-    .timeline-nodes:nth-child(odd) .heading,
+    /* .timeline-nodes:nth-child(odd) .heading,
     .timeline-nodes:nth-child(odd) p {
         text-align: left
     }
@@ -203,7 +253,6 @@ body {
         position: absolute;
         left: 0%;
         top: 60px;
-        /*transform: translateX(-50%;);*/
     }
 
     .timeline-nodes:nth-child(odd) .timeline-content::after {
@@ -237,12 +286,12 @@ body {
     .timeline-image::before {
         width: 65px;
         height: 65px;
-    }
+    } */
 }
 
 /*extra small device style */
 @media (max-width: 575px) {
-    .timeline::before {
+    /* .timeline::before {
         content: "";
         display: block;
         position: absolute;
@@ -258,5 +307,5 @@ body {
     .timeline-image::before {
         width: 60px;
         height: 60px;
-    }
+    } */
 }
