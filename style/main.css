@@ -54,13 +54,24 @@ body {
     text-align: center;
 }
 
-#skills{
+#skills-card, #additional-card{
     display: none;
 }
 
+.card-title h2{
+    text-align: center;
+    font-family: 'Roboto', cursive;
+    font-weight: 700;
+    padding-top: 50px;
+}
 
+.skill-label{
+    margin:50px;
+}
 
-
+.skill-label .alert{
+    margin-left: 20px;
+}
 
 /* body {
     font-family: 'Roboto', sans-serif;
