@@ -69,7 +69,7 @@
   <body>
     <div class="mainscreen">
       <div class="container">
-        <nav class="navbar navbar-expand-lg sticky-top">
+        <nav class="navbar navbar-expand-lg sticky-top navbar-dark">
           <button
             class="navbar-toggler collapsed"
             type="button"
@@ -84,32 +84,28 @@
           <div class="navbar-collapse collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
-                <a class="nav-link text-light" id="home">Home</a>
+                <a class="nav-link" id="home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" id="skills">Key Skills</a>
+                <a class="nav-link" id="skills">Key Skills</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" id="timeline">Timeline</a>
+                <a class="nav-link" id="timeline">Experiance & Education</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" id="projects">Projects</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" id="langint">Language & Interests</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" id="projects">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light" id="langint"
-                  >Language & Interests</a
-                >
+                <a class="nav-link" id="more">More</a>
               </li>
             </ul>
           </div>
-          <label class="text-light">
-            Download :
-            <a role="button" download="maulik-resume" href="./asset/generic.pdf"
-              >Generic</a
-            >
-            /
-            <a role="button" download="maulik-resume" href="./asset/resume.pdf"
-              >Fancy(this)</a
+          <label>
+            <a role="button" class="nav-link text-light" download="maulik-resume" href="./asset/generic.pdf"
+              >Download Resume</a
             >
           </label>
         </nav>
@@ -117,7 +113,7 @@
         <div class="card content shown" id="home-card">
           <div class="card-body row">
             <!-- <div class=""></div> -->
-            <div class="col-md-6 left-content">
+            <div class="col-md-6 col-sm-12 left-content">
               <div class="profile-img">
                 <img src="asset/me.jpeg" class="rounded-circle" />
               </div>
@@ -128,7 +124,7 @@
                 Web Developer
               </h3>
             </div>
-            <div class="col-md-6 right-content">
+            <div class="col-md-6 col-sm-12 right-content">
               <h1 class="quote">"</h1>
               <p>
                 Hello. I am Bachelor of Computer Engineering and Currently
@@ -145,94 +141,285 @@
           <div class="card-title">
             <h2>Skills</h2>
           </div>
-          <div class="card-body row skill-label">
+          <div class="card-body skill-label">
             <div class="row">
-              <div class="row"><h3>Basic</h3></div>
-              <label class="alert alert-success">
-                <i class="devicon-php-plain"></i>
-                PHP
-              </label>
-              <label class="alert alert-success">
-                <i class="devicon-javascript-plain"></i>
-                JavaScript
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-css3-plain"></i>
-                CSS
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-html5-plain"></i>
-                HTML
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-csharp-plain"></i>
-                C#
-              </label>
+              <div class="col-3">
+                <h4>Basic</h4>
+              </div>
+              <div class="col-9">
+                <label class="alert alert-success">
+                  <i class="devicon-php-plain"></i>
+                  PHP
+                </label>
+                <label class="alert alert-success">
+                  <i class="devicon-javascript-plain"></i>
+                  JavaScript
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-css3-plain"></i>
+                  CSS
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-html5-plain"></i>
+                  HTML
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-csharp-plain"></i>
+                  C#
+                </label>
+              </div>
             </div>
 
             <div class="row">
-              <div class="row"><h3>Frameworks</h3></div>
-              <label class="alert alert-success">
-                <i class="devicon-nodejs-plain"></i>
-                NodeJs
-              </label>
-              <label class="alert alert-success">
-                <i class="devicon-react-original"></i>
-                ReactJs
-              </label>
-              <label class="alert alert-success">
-                <i class="devicon-codeigniter-plain"></i>
-                CodeIgniter
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-jquery-plain"></i>
-                jQuery
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-bootstrap-plain"></i>
-                Bootstrap
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-angularjs-plain"></i>
-                AngularJs
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-php-plain"></i>
-                Phalcon
-              </label>
+              <div class="col-3">
+                <h4>Frameworks</h4>
+              </div>
+              <div class="col-9">
+                <label class="alert alert-success">
+                  <i class="devicon-nodejs-plain"></i>
+                  NodeJs
+                </label>
+                <label class="alert alert-success">
+                  <i class="devicon-react-original"></i>
+                  ReactJs
+                </label>
+                <label class="alert alert-success">
+                  <i class="devicon-codeigniter-plain"></i>
+                  CodeIgniter
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-jquery-plain"></i>
+                  jQuery
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-bootstrap-plain"></i>
+                  Bootstrap
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-angularjs-plain"></i>
+                  AngularJs
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-php-plain"></i>
+                  Phalcon
+                </label>
+              </div>
             </div>
-            <h3>Database</h3>
+
             <div class="row">
-              <label class="alert alert-success">
-                <i class="devicon-mysql-plain"></i>
-                MySQL
-              </label>
-              <label class="alert alert-success">
-                <i class="devicon-mongodb-plain"></i>
-                Mongodb
-              </label>
-              <label class="alert alert-info">
-                <!-- <i class="devicon-laravel-plain"></i> -->
-                ElasticSearch
-              </label>
+              <div class="col-3"><h3>Database</h3></div>
+              <div class="col-9">
+                <label class="alert alert-success">
+                  <i class="devicon-mysql-plain"></i>
+                  MySQL
+                </label>
+                <label class="alert alert-success">
+                  <i class="devicon-mongodb-plain"></i>
+                  Mongodb
+                </label>
+                <label class="alert alert-info">
+                  <!-- <i class="devicon-laravel-plain"></i> -->
+                  ElasticSearch
+                </label>
+              </div>
             </div>
-            <h3>Tools/Others</h3>
+
             <div class="row">
-              <label class="alert alert-info">
-                Firebase
-              </label>
-              <label class="alert alert-info">
-                <i class="devicon-amazonwebservices-original"></i>
-                AWS - EC2
-              </label>
-              <label class="alert alert-info">
-                Electron Library
-              </label>
-              <label class="alert alert-success">
-                <i class="devicon-photoshop-plain"></i>
-                Photoshop
-              </label>
+              <div class="col-3"><h3>Tools/Others</h3></div>
+              <div class="col-9">
+                <label class="alert alert-info">
+                  Firebase
+                </label>
+                <label class="alert alert-info">
+                  <i class="devicon-amazonwebservices-original"></i>
+                  AWS - EC2
+                </label>
+                <label class="alert alert-info">
+                  Electron Library
+                </label>
+                <label class="alert alert-success">
+                  <i class="devicon-photoshop-plain"></i>
+                  Photoshop
+                </label>
+              </div>
             </div>
+          </div>
+        </div>
+
+        <div class="card content" id="timeline-card">
+          <div class="card-title">
+            <h2>Experiance & Education</h2>
+          </div>
+          <div class="card-body">
+            <div class="row box">
+              <div class="col-3">
+                January, 2019 - Present
+              </div>
+              <div class="col-1"><i class="fas fa-3x fa-briefcase"></i></div>
+              <div class="col-6">
+                <h4>
+                  Web Developer at
+                  <a href="http://www.pardypanda.com">Pardy Panda Studios</a>
+                </h4>
+                <p class="card-text text-muted">
+                  Primarily Working with NodeJs and ReactJs alongside using
+                  Firebase and AWS. Also, working on CodeIgniter and Laravel for
+                  some projects.
+                </p>
+              </div>
+            </div>
+            <div class="row box">
+              <div class="col-3">
+                July, 2017 - October, 2018
+              </div>
+              <div class="col-1"><i class="fas fa-3x fa-briefcase"></i></div>
+              <div class="col-6">
+                <h4>
+                  Web Developer at
+                  <a href="http://www.helimp.com">Helimp Softomation</a>
+                </h4>
+                <p class="card-text text-muted">
+                  Primarily worked with Phalcon Framework (PHP) and AngularJs
+                  for an ERP system. Worked on NodeJs, ElasticSearch and
+                  Electron Library for small projects.
+                </p>
+              </div>
+            </div>
+            <div class="row box">
+              <div class="col-3">
+                July, 2017 - October, 2018
+              </div>
+              <div class="col-1">
+                <i class="fas fa-3x fa-graduation-cap"></i>
+              </div>
+              <div class="col-6">
+                <h4>
+                  Computer Engineering (B.E.) at
+                  <a href="http://www.gecbvn.com">GEC Bhavnagar</a>
+                </h4>
+                <p class="card-text text-muted">
+                  CPI : <b>7.50</b> SPI : <b>7.83</b>
+                </p>
+              </div>
+            </div>
+            <div class="row box">
+              <div class="col-3">
+                July, 2017 - October, 2018
+              </div>
+              <div class="col-1">
+                <i class="fas fa-3x fa-graduation-cap"></i>
+              </div>
+              <div class="col-6">
+                <h4>
+                  H.S.C. (Science) at
+                  <a href="http://www.gyanmanjarividyapith.edu"
+                    >Gyanmanjari Vidyapith</a
+                  >
+                </h4>
+                <p class="card-text text-muted">Score : <b>74.6%</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card content" id="langint-card">
+          <div class="card-title">
+            <h2>Languages known</h2>
+          </div>
+          <div class="card-body">
+            <h3>English | Gujarati | Hindi</h3>
+          </div>
+          <hr />
+          <div class="card-title">
+            <h2>Interests</h2>
+          </div>
+          <div class="card-body">
+            <span data-toggle="tooltip" title="Photography">
+              <i class="fa fa-3x fa-camera"></i>
+            </span>
+            <span data-toggle="tooltip" title="Movies">
+              <i class="fa fa-3x fa-film"></i>
+            </span>
+            <span data-toggle="tooltip" title="Reading">
+              <i class="fa fa-3x fa-book-open"></i>
+            </span>
+            <span data-toggle="tooltip" title="Travel">
+              <i class="fa fa-3x fa-bus"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="card content" id="more-card">
+          <div class="card-title">
+            <h2>Thank You</h2>
+            <hr>
+          </div>
+          <div class="card-body">
+            <p>Visit this links to get in touch with me</p>
+            <a
+              class="col"
+              href="https://www.linkedin.com/in/mauliksompura/"
+              data-toggle="tooltip"
+              title="LinkedIn"
+            >
+              <i class="fab fa-2x fa-linkedin"></i>
+            </a>
+            <a
+              class="col"
+              href="https://stackoverflow.com/users/8602940/lazzy-ms"
+              data-toggle="tooltip"
+              title="StackOverflow"
+            >
+              <i class="fab fa-2x fa-stack-overflow"></i>
+            </a>
+            <a
+              class="col"
+              href="https://github.com/lazzyms"
+              data-toggle="tooltip"
+              title="GitHub"
+            >
+              <i class="fab fa-2x fa-github"></i>
+            </a>
+            <a
+              class="col"
+              href="http://facebook.com/lazzy.ms"
+              data-toggle="tooltip"
+              title="Facebook"
+            >
+              <i class="fab fa-2x fa-facebook-square"></i>
+            </a>
+            <a
+              class="col"
+              href="http://instagram.com/lazzy_ms"
+              data-toggle="tooltip"
+              title="Instagram"
+            >
+              <i class="fab fa-2x fa-instagram"></i>
+            </a>
+            <a
+              class="col"
+              href="https://twitter.com/@lazzy_ms"
+              data-toggle="tooltip"
+              title="Twitter"
+            >
+              <i class="fab fa-2x fa-twitter"></i>
+            </a>
+            <a
+              class="col"
+              href="https://plus.google.com/u/0/+MaulikSompuraLazzy"
+              data-toggle="tooltip"
+              title="Google+"
+            >
+              <i class="fab fa-2x fa-google-plus"></i>
+            </a>
+            <a
+              class="col"
+              href="https://www.reddit.com/user/lazzy_ms"
+              data-toggle="tooltip"
+              title="Reddit"
+            >
+              <i class="fab fa-2x fa-reddit"></i>
+            </a>
           </div>
         </div>
       </div>
@@ -247,36 +434,80 @@
   ></script>
   <script>
     $("#skills").click(function(e) {
+      $(".nav-item").removeClass("active");
+      $("#skills")
+        .parent()
+        .addClass("active");
       $(".card").each(function() {
         if ($(this).hasClass("shown")) {
           $(this).fadeOut("slow", function() {
+            $(this).removeClass("shown");
             $("#skills-card").fadeIn("slow");
             $("#skills-card").addClass("shown");
-            $(this).removeClass("shown");
           });
         }
       });
     });
 
     $("#home").click(function(e) {
+      $(".nav-item").removeClass("active");
+      $("#home")
+        .parent()
+        .addClass("active");
       $(".card").each(function() {
         if ($(this).hasClass("shown")) {
           $(this).fadeOut("slow", function() {
+            $(this).removeClass("shown");
             $("#home-card").fadeIn("slow");
             $("#home-card").addClass("shown");
-            $(this).removeClass("shown");
           });
         }
       });
     });
 
-    $("#addknowledge").click(function(e) {
+    $("#timeline").click(function(e) {
+      $(".nav-item").removeClass("active");
+      $("#timeline")
+        .parent()
+        .addClass("active");
       $(".card").each(function() {
         if ($(this).hasClass("shown")) {
           $(this).fadeOut("slow", function() {
-            $("#additional-card").fadeIn("slow");
-            $("#additional-card").addClass("shown");
             $(this).removeClass("shown");
+            $("#timeline-card").fadeIn("slow");
+            $("#timeline-card").addClass("shown");
+          });
+        }
+      });
+    });
+
+    $("#langint").click(function(e) {
+      $(".nav-item").removeClass("active");
+      $("#langint")
+        .parent()
+        .addClass("active");
+      $(".card").each(function() {
+        if ($(this).hasClass("shown")) {
+          $(this).fadeOut("slow", function() {
+            $(this).removeClass("shown");
+            $("#langint-card").fadeIn("slow");
+            $("#langint-card").addClass("shown");
+          });
+        }
+      });
+    });
+
+    $("#more").click(function(e) {
+      $(".nav-item").removeClass("active");
+      $("#more")
+        .parent()
+        .addClass("active");
+      $(".card").each(function() {
+        if ($(this).hasClass("shown")) {
+          $(this).fadeOut("slow", function() {
+            $(this).removeClass("shown");
+            $("#more-card").fadeIn("slow");
+            $("#more-card").addClass("shown");
           });
         }
       });
