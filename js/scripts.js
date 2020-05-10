@@ -22,7 +22,6 @@ window.onload = function() {
   }
 
   var messages = [
-    
     'Hey there 👋',
     'I\'m Maulik 🤓',
     'I convert my thoughts into code.',
@@ -30,7 +29,7 @@ window.onload = function() {
     'Here\'s My<br><a target="_blank" href="https://me.mauliksompura.in/generic-resume">Professional Resume</a><br><a target="_blank" href="https://github.com/lazzyms">Github Profile</a><br><a target="_blank" href="https://stackoverflow.com/users/story/8602940">Developer Story on StackOverflow</a><br><a target="_blank" href="https://www.linkedin.com/in/mauliksompura/">LinkedIn Profile</a>',
     'and If you like my work you can <a target="_blank" href="https://www.buymeacoffee.com/gBqcsJK">Buy me a Coffee</a>',
     getCurrentTime(),
-    '<img src="./img/maulik.jpg" height="100" width"100" style="border-radius: 50%;border: gray 2px solid;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>',
+    '<img class="image" src="./img/maulik.jpg" style="height:100px;width:100px;border-radius: 50%;border: gray 2px solid;margin-left:25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>',
   ]
 
   var getFontSize = function() {
