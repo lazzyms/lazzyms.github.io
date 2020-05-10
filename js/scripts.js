@@ -27,9 +27,9 @@ window.onload = function() {
     'I convert my thoughts into code.',
     'I\'m currently working at Pardy Panda 🐼 Studios Pvt. Ltd. as 👨‍💻 Web Backend Developer.<br> I\'m interested in doing freelance work as well as open for Good opportunities. <br>For that, you can contact me at <a href="mailto:maulik.sompura06@gmail.com">maulik.sompura06@gmail.com</a>',
     'Here\'s My<br><a target="_blank" href="https://me.mauliksompura.in/generic-resume">Professional Resume</a><br><a target="_blank" href="https://github.com/lazzyms">Github Profile</a><br><a target="_blank" href="https://stackoverflow.com/users/story/8602940">Developer Story on StackOverflow</a><br><a target="_blank" href="https://www.linkedin.com/in/mauliksompura/">LinkedIn Profile</a>',
-    'and If you like my work you can <a target="_blank" href="https://www.buymeacoffee.com/gBqcsJK">Buy me a Coffee</a>',
+    'and If you like my work you can <a target="_blank" href="https://www.buymeacoffee.com/gBqcsJK">Buy me a Coffee</a>☕',
     getCurrentTime(),
-    '<img class="image" src="./img/maulik.jpg" style="height:100px;width:100px;border-radius: 50%;border: gray 2px solid;margin-left:25px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>',
+    '👀 M.'
   ]
 
   var getFontSize = function() {
