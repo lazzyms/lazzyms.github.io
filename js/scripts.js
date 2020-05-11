@@ -21,6 +21,14 @@ window.onload = function() {
     if (current >= 22 || current < 5) return 'Have a good night';
   }
 
+  var date = new Date();
+  var hours =  date.getHours();
+  var minutes =  date.getMinutes();
+  var current = hours + (minutes * .01);
+  if (current >= 5 && current < 19) document.getElementById('status').innerText =  'is coding right now';
+  if (current >= 19 && current < 22) document.getElementById('status').innerText =  'is chilling';
+  if (current >= 22 || current < 5)  document.getElementById('status').innerText = 'is 💤 Sleeping peacefully';
+
   var messages = [
     'Hey there 👋',
     'I\'m Maulik 🤓',
