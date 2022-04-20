@@ -7,7 +7,7 @@
 window.onload = function() {
 
   var messagesEl = document.querySelector('.messages');
-  var typingSpeed = 20;
+  var typingSpeed = 10;
   var loadingText = '<b>•</b><b>•</b><b>•</b>';
   var messageIndex = 0;
 
@@ -33,9 +33,10 @@ window.onload = function() {
     'Hey there 👋',
     'I\'m Maulik 🤓',
     'I convert my thoughts into code.',
-    'I\'m currently working at Codemonk as 👨‍💻 Javascript Developer.<br> I\'m interested in doing freelance work as well as open for Good opportunities. <br>For that, you can contact me at <a href="mailto:maulik.sompura06@gmail.com">maulik.sompura06@gmail.com</a>',
-    'Here\'s My<br><a target="_blank" href="https://me.mauliksompura.in/generic-resume">Professional Resume</a><br><a target="_blank" href="https://github.com/lazzyms">Github Profile</a><br><a target="_blank" href="https://stackoverflow.com/users/story/8602940">Developer Story on StackOverflow</a><br><a target="_blank" href="https://www.linkedin.com/in/mauliksompura/">LinkedIn Profile</a>',
-    'and If you like my work you can <a target="_blank" href="https://www.buymeacoffee.com/gBqcsJK">Buy me a Coffee</a>☕',
+    'I\'m currently working at Codemonk as 👨‍💻 Javascript Developer.',
+    'I\'m accepting freelance work as well as open for Good career opportunities.<br>Connect me at <a href="mailto:maulik.sompura06@gmail.com">maulik.sompura06@gmail.com</a> to discuss more.',
+    'Here\'s My<br><a target="_blank" href="https://me.mauliksompura.in/generic-resume">Professional Resume</a><br><a target="_blank" href="https://github.com/lazzyms">Github Profile</a><br><a target="_blank" href="https://www.linkedin.com/in/mauliksompura/">LinkedIn Profile</a>',
+    'You can also appriciate my work by <a target="_blank" href="https://www.buymeacoffee.com/gBqcsJK">Buying me a Coffee</a>☕',
     getCurrentTime(),
     '👀 M.'
   ]
